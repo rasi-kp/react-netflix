@@ -1,33 +1,25 @@
 import React from 'react';
-import axios from 'axios';
+
 import Navbar from './Components/navbar/navbar';
 import Banner from './Components/banner/banner';
 import Poster from './Components/poster/poster';
+import { originals,action,comedy,horror,romance,documentary} from './urls';
 import './App.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 function App() {
-  const [state,setState]=useState([])
+  // const [state,setState]=useState([])
   return (
     <div className="App">
       <Navbar/>
       
       <Banner/>
-      <Poster/>
-      <button onClick={()=>{
-        axios.get('https://jsonplaceholder.typicode.com/posts').then((response)=>{
-          console.log(response.data);
-          setState(response.data)
-        })
-      }}>click</button>
-      {state.map((obj,index)=>{
-        return(
-          <div>
-            <h2>{index}</h2>
-            <h3>{obj.body}</h3>
-            <h4>{obj.title}</h4>
-          </div>
-        )
-      })}
+      <Poster url={originals} title='Netflix Originals' />
+      <Poster url={action} title='Action' isSmall />
+      <Poster url={comedy} title='Comedy' />
+      <Poster url={horror} title='Horror'  />
+      <Poster url={romance} title='Romance'  />
+      <Poster url={originals} title='Documentary'  />
+      
     </div>
   );
 }
