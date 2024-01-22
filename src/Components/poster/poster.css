@@ -13,10 +13,18 @@
     display: none;
 }
 .poster{
+    cursor: pointer;
     max-height: 200px;
     margin-right: 5px;
 }
+.poster:hover{
+    transform: scale(1.1);
+}
 .smallposter{
+    cursor: pointer;
     max-height: 90px;
     margin-right: 5px;
+}
+.smallposter:hover{
+    transform: scale(1.1);
 }

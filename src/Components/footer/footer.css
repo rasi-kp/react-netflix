@@ -1,0 +1,43 @@
+
+.container-fluid {
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.container-fluid a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-md-start {
+    text-align: start;
+}
+
+.text-md-end {
+    text-align: end;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-md-0 {
+    margin-bottom: 0;
+}
+
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
