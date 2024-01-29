@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/olx-clone-react/static/css/main.ec40ca1b.css",
+    "main.js": "/olx-clone-react/static/js/main.71ee07e0.js",
+    "index.html": "/olx-clone-react/index.html",
+    "main.ec40ca1b.css.map": "/olx-clone-react/static/css/main.ec40ca1b.css.map",
+    "main.71ee07e0.js.map": "/olx-clone-react/static/js/main.71ee07e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec40ca1b.css",
+    "static/js/main.71ee07e0.js"
+  ]
+}
